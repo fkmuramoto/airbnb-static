@@ -4,7 +4,7 @@
 <ul class="list-inline text-center">
   <% ["boris", "seb", "romain"].each do |member| %>
     <li>
-      <%= image_tag "/images/#{member}.png", class: "img-circle" %>
+      <%= image_tag "images/#{member}.jpeg", class: "img-circle" %>
       <h3><%= member.capitalize %></h3>
     </li>
   <% end %>
@@ -12,3 +12,4 @@
 
 <i class="fa fa-envelope"></i>
 <%= link_to "contact@airbnb.com", "mailto: contact@airbnb.com" %>
+</div>
